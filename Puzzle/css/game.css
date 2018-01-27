@@ -1,0 +1,91 @@
+body
+{
+    background-color: #2f3336;
+	font-family: 'Open Sans', sans-serif;
+	color: #ddd;
+}
+
+#game
+{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+#board
+{
+    width: 600px;
+    height: 600px;
+    margin: 10px auto 10px auto;
+    border: 2px solid #1d1d1d;
+    border-radius: 2px;
+    position: relative;
+}
+
+#menu
+{
+    margin-top: 50px;
+}
+
+#title
+{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;  
+    letter-spacing: 5px;
+}
+
+.level
+{
+    width: 200px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0e80d1;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    display: block;
+    margin: 25px auto 25px auto;
+    
+}
+
+.level:hover
+{
+    background-color: #219bf3;
+}
+
+#reload
+{
+    margin-top: 100px;
+    display: none;
+}
+
+#score
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    display: none;
+}
+
+.component
+{
+    position: absolute;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.component:hover
+{
+    cursor: pointer;
+    opacity: 1;
+}
